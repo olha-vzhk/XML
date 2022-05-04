@@ -1,0 +1,24 @@
+<Bug Name>"Application crashes upon clicking the SAVE button while creating a new user"</Bug Name>
+<Bug ID>"(It will be automatically created by the BUG Tracking tool once you save this bug)"</Bug ID>
+<Area Path>"USERS menu -> New Users"</Area Path>
+<Build Number>"Version Number 5.0.1"</Build Number>
+<Severity>"HIGH (High/Medium/Low) or 1"</Severity>
+<Priority>"HIGH (High/Medium/Low) or 1"</Priority>
+<Assigned to>"Developer-X"</Assigned to>
+<Reported By>"Your Name"</Reported By>
+<Status>"New/Open/Active"</Status>
+<Environment>"Windows 2003/SQL Server 2005"</Environment>
+
+<Description>"Application crashes upon clicking the SAVE button while creating a new the user, hence unable to create a new user in the application."</Description>
+
+<Steps to Reproduce>
+  "1) Login into the Application."
+  "2) Navigate to the Users Menu -> New User"
+  "3) Filled out all the user information fields."
+  "4) Clicked on the ‘Save’ button."
+  "5) Seen an error page “ORA1090 Exception: Insert values Error…”"
+  "6) See the attached logs for more information (Attach more logs related to the bug..IF any)"
+  "7) Also see the attached screenshot of the error page."
+</Steps to Reproduce>
+
+<Expected Result>"On clicking the SAVE button, you should be prompted to a successful message “New User has been created successfully”."</Expected Result>
